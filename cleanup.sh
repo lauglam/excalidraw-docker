@@ -26,7 +26,7 @@ docker rmi $BUILDREPO/excalidraw-json
 docker rmi $BUILDREPO/excalidraw-room
 docker rmi $BUILDREPO/nginx
 docker rmi $BUILDREPO/base
-docker rmi minio/minio
+docker rmi minio/minio:RELEASE.2020-11-25T22-36-25Z
 docker rmi minio/mc
 
 echo $PRE Removing volumes...
